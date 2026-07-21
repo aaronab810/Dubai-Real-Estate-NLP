@@ -21,7 +21,7 @@ The project focuses on collecting and processing data from online platforms, per
 #### **Google Drive**
 link: https://drive.google.com/drive/folders/1y73NPRlCX3O2wRO-Gyveo6Qsw9-gv2UP?usp=sharing
 
-(side note: the google drive is messy with a lot of files which need to be cleaned and removed but for reference of the clean files that are used, the copies are in the file **Prof_Student_Folder** link: https://drive.google.com/drive/folders/1BMtB2x1xLljrcGdjiJg2Tqslljx7gJw0?usp=sharing )
+(side note: the google drive is messy with a lot of files, but for reference of the clean files that are used, the copies are in the file **Prof_Student_Folder** link: https://drive.google.com/drive/folders/1BMtB2x1xLljrcGdjiJg2Tqslljx7gJw0?usp=sharing )
 
 
 
