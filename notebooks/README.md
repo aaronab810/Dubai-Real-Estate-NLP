@@ -14,5 +14,5 @@ This notebook is a Twitter/X + Reddit preprocessing pipeline. It loads saved raw
 
 # `Topic_discovery_for_SMDI.ipynb`
 
-This notebook is the creation of the SMDI using topic discovery on the combined dataset from 'twitter_reddit_merge.ipynb'
+This notebook is the creation of the SMDI using topic discovery on the combined dataset from 'twitter_reddit_merge.ipynb' using bertopic and undergoing clustering alternatives. 
 
