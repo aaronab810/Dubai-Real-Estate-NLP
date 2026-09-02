@@ -25,6 +25,10 @@ link: https://drive.google.com/drive/folders/1y73NPRlCX3O2wRO-Gyveo6Qsw9-gv2UP?u
 
 (side note: the google drive is messy with a lot of files, but for reference of the clean files that are used, the copies are in the file **Prof_Student_Folder** link: https://drive.google.com/drive/folders/1BMtB2x1xLljrcGdjiJg2Tqslljx7gJw0?usp=sharing )
 
+#### **Google Document**
+google document consists of our rough work before it goes onto overleaf.
+
+link: https://docs.google.com/document/d/1vZPgrS1_iiIwDxr5hxLOJc81eMAcZRWZhrUOmNwmiHY/edit?tab=t.0
 
 
 ##### **Current Status** 
