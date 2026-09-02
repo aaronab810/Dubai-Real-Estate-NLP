@@ -17,6 +17,8 @@ The project focuses on collecting and processing data from online platforms, per
 * Analysis based on the comparison of Social media and Dubai real estate market data 
 * Develop reproducible research workflows using Jupyter notebooks.
 
+#### **notebooks**
+the notebooks files contains the code files for this project
 
 #### **Google Drive**
 link: https://drive.google.com/drive/folders/1y73NPRlCX3O2wRO-Gyveo6Qsw9-gv2UP?usp=sharing
