@@ -18,3 +18,17 @@ This notebook is the creation of the SMDI using topic discovery on the combined 
 
 #  `DLD_Market_Indicators.ipynb`
 
+## Reviewed v7 attachment and AutoModerator correction
+
+The supplied `dubai_re_ONE_NOTEBOOK_v7_current_trimmed (1) (1).ipynb` matched
+`twitter_reddit_merge.ipynb` as parsed JSON before the September 2026 correction.
+The latter remains the canonical copy. The accompanying supplied brief is saved
+as [v7_supplied_audit_brief.md](v7_supplied_audit_brief.md); its 80-cell counts
+refer to an earlier version, whereas the current notebook contains 59 cells.
+
+Both preprocessing and topic discovery now explicitly exclude Reddit
+AutoModerator. The topic notebook also filters saved embeddings in matching row
+order and keeps topic -1 outside semantic groups. Refit BERTopic to remove its
+earlier training contamination, then inspect groups before entering the reviewed
+SMDI mapping. See [the review and evaluation](../docs/NOTEBOOK_REVIEW_2026_09_07.md).
+

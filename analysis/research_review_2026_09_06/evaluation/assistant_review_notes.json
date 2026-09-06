@@ -1,0 +1,23 @@
+{
+  "reviewer": "Codex assistant",
+  "review_type": "Qualitative machine-assisted inspection, not independent human gold labels",
+  "sample": "66 fresh records: 10 from each of six triage categories and all 6 automated candidates; randomized order, category hidden during text review",
+  "rules_retuned_on_this_sample": false,
+  "findings": [
+    {"review_id": "OUT_REVIEW_003", "finding": "A generic thanks reply inherits a detailed property parent; relevant context does not make the reply substantive."},
+    {"review_id": "OUT_REVIEW_004", "finding": "Off-plan/PHPP advice is property-related but lacks an explicit Dubai identifier in the available text. Shortness alone does not imply irrelevance."},
+    {"review_id": "OUT_REVIEW_008", "finding": "Residential relocation after conflict has a housing link expressed through home/living/hotel rather than the rule's property vocabulary. This is a possible false exclusion under the geopolitical rule; eligibility still needs a scope-consistent judgment."},
+    {"review_id": "OUT_REVIEW_014", "finding": "A substantive question about aircraft noise near Dubai South projects is padded with repeated sentences; within-record repetition needs separate handling from duplicate records."},
+    {"review_id": "OUT_REVIEW_017", "finding": "Substantive lease/cap-rate discussion is mixed with a blog referral. Promotion and discussion can coexist."},
+    {"review_id": "OUT_REVIEW_020", "finding": "A detailed liquidity/exit analysis uses listing-like units, prices and named locations; listing-format rules can mistake market analysis for an advertisement."},
+    {"review_id": "OUT_REVIEW_025", "finding": "Long aviation/geopolitical discussion does not establish a property link merely by mentioning Dubai's economy."},
+    {"review_id": "OUT_REVIEW_030", "finding": "Explicit property-linked geopolitical market expectations satisfy the user's property-link requirement."},
+    {"review_id": "OUT_REVIEW_035", "finding": "A vague reaction under a tenancy dispute lacks a concrete argument; parent relevance is insufficient for substantive acceptance."},
+    {"review_id": "OUT_REVIEW_040", "finding": "A short housing-price headline conveys specific market information despite fewer than twelve words."},
+    {"review_id": "OUT_REVIEW_045", "finding": "Advice plus an agent referral is mixed-content; binary advertising rules need a predominant-purpose or multilabel policy."},
+    {"review_id": "OUT_REVIEW_052", "finding": "A very short explicit property-price direction claim can be informative for expectations even if it lacks supporting evidence."},
+    {"review_id": "OUT_REVIEW_062", "finding": "A Toronto property question is not automatically Dubai-relevant because it appears in a Dubai subreddit. Comparison context is missing."},
+    {"review_id": "OUT_REVIEW_065", "finding": "A contact-only reply to a property-finance question should not inherit substantive status from the parent."}
+  ],
+  "decision": "Do not automatically accept or reject outliers using the current rule categories. Preserve all rows; use categories for review routing. Human-label evaluation and qualitative failures both show that a context-aware, separately validated relevance/discourse classifier is needed for automated recovery."
+}

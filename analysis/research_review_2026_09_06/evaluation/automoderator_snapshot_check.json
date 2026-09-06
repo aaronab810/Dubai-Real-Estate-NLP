@@ -1,0 +1,10 @@
+{
+  "input_rows": 87574,
+  "automoderator_excluded": 2134,
+  "remaining_rows": 85440,
+  "embedding_rows": 85440,
+  "positional_alignment_verified": true,
+  "surviving_topic_entries": 570,
+  "remaining_outliers": 41881,
+  "bertopic_refit": false
+}

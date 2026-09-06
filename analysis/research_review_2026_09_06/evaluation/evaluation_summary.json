@@ -1,0 +1,90 @@
+{
+  "matched_records": 178,
+  "total_validation_records": 400,
+  "ambiguous_outlier_key_rows": 454,
+  "matched_categories": {
+    "context_dependent": 79,
+    "property_discussion_candidates": 78,
+    "uncertain_or_other": 14,
+    "short_property_context_needed": 4,
+    "geopolitics_excluded_no_property_link": 3
+  },
+  "reference_type": "Existing human labels, annotators evaluated separately; version independence unresolved",
+  "generalization": "Matched prefiltered validation records only; not population estimates",
+  "fresh_review_sample": 66,
+  "frozen_triage_sha256": "a676aec71f06f6adf10e20d1d297a0f9f8b2226d39e14bfe1ef1356c9f3ad353",
+  "metrics": [
+    {
+      "annotator": "a1",
+      "policy": "strict_discussion_candidates",
+      "n": 178,
+      "tp": 66,
+      "fp": 12,
+      "fn": 67,
+      "tn": 33,
+      "precision": 0.8461538461538461,
+      "recall": 0.49624060150375937,
+      "f1": 0.6255924170616114
+    },
+    {
+      "annotator": "a1",
+      "policy": "discussion_plus_context_review",
+      "n": 178,
+      "tp": 123,
+      "fp": 38,
+      "fn": 10,
+      "tn": 7,
+      "precision": 0.7639751552795031,
+      "recall": 0.924812030075188,
+      "f1": 0.8367346938775511
+    },
+    {
+      "annotator": "a1",
+      "policy": "property_domain_review",
+      "n": 178,
+      "tp": 160,
+      "fp": 1,
+      "fn": 12,
+      "tn": 5,
+      "precision": 0.9937888198757764,
+      "recall": 0.9302325581395349,
+      "f1": 0.960960960960961
+    },
+    {
+      "annotator": "a2",
+      "policy": "strict_discussion_candidates",
+      "n": 178,
+      "tp": 63,
+      "fp": 15,
+      "fn": 71,
+      "tn": 29,
+      "precision": 0.8076923076923077,
+      "recall": 0.4701492537313433,
+      "f1": 0.5943396226415094
+    },
+    {
+      "annotator": "a2",
+      "policy": "discussion_plus_context_review",
+      "n": 178,
+      "tp": 126,
+      "fp": 35,
+      "fn": 8,
+      "tn": 9,
+      "precision": 0.782608695652174,
+      "recall": 0.9402985074626866,
+      "f1": 0.8542372881355932
+    },
+    {
+      "annotator": "a2",
+      "policy": "property_domain_review",
+      "n": 178,
+      "tp": 158,
+      "fp": 3,
+      "fn": 11,
+      "tn": 6,
+      "precision": 0.9813664596273292,
+      "recall": 0.9349112426035503,
+      "f1": 0.9575757575757575
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+inputs/
+__pycache__/
+*_cells.txt
+followup/*.csv
+evaluation/*.csv
+!evaluation/existing_label_metrics.csv
+evaluation/quality_audit/
+tables/*.csv
