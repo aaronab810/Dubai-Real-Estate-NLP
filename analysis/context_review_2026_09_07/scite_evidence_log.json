@@ -1,0 +1,82 @@
+{
+  "date": "2026-09-07",
+  "provider": "Scite",
+  "selection": "Published peer-reviewed journal and conference versions only; manually checked venues. Preprint versions excluded.",
+  "accepted": [
+    {
+      "doi": "10.18653/v1/2023.emnlp-main.92",
+      "title": "CoAnnotating: Uncertainty-Guided Work Allocation between Human and Large Language Models for Data Annotation",
+      "year": 2023,
+      "journal_or_publisher": "Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/2023.emnlp-main.92"
+    },
+    {
+      "doi": "10.18653/v1/2022.naacl-main.433",
+      "title": "Hate Speech and Counter Speech Detection: Conversational Context Does Matter",
+      "year": 2022,
+      "journal_or_publisher": "Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/2022.naacl-main.433"
+    },
+    {
+      "doi": "10.1073/pnas.2305016120",
+      "title": "ChatGPT outperforms crowd workers for text-annotation tasks",
+      "year": 2023,
+      "journal_or_publisher": "proceedings of the national academy of sciences",
+      "url": "https://doi.org/10.1073/pnas.2305016120"
+    },
+    {
+      "doi": "10.1162/coli_a_00502",
+      "title": "Can Large Language Models Transform Computational Social\n                    Science?",
+      "year": 2024,
+      "journal_or_publisher": "computational linguistics",
+      "url": "https://doi.org/10.1162/coli_a_00502"
+    },
+    {
+      "doi": "10.1162/tacl_a_00449",
+      "title": "Dealing with Disagreements: Looking Beyond the Majority Vote in Subjective Annotations",
+      "year": 2022,
+      "journal_or_publisher": "transactions of the association for computational linguistics",
+      "url": "https://doi.org/10.1162/tacl_a_00449"
+    },
+    {
+      "doi": "10.1111/1540-6229.70008",
+      "title": "News media coverage and the predictability of house prices",
+      "year": 2025,
+      "journal_or_publisher": "real estate economics",
+      "url": "https://doi.org/10.1111/1540-6229.70008"
+    },
+    {
+      "doi": "10.18653/v1/2021.acl-long.530",
+      "title": "Evaluation of Thematic Coherence in Microblogs",
+      "year": 2021,
+      "journal_or_publisher": "Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/2021.acl-long.530"
+    },
+    {
+      "doi": "10.1007/s11146-022-09900-5",
+      "title": "A Sentiment Index of the Housing Market in China: Text Mining of Narratives on Social Media",
+      "year": 2022,
+      "journal_or_publisher": "the journal of real estate finance and economics",
+      "url": "https://doi.org/10.1007/s11146-022-09900-5"
+    },
+    {
+      "doi": "10.18653/v1/2024.findings-emnlp.330",
+      "title": "Generative Deduplication For Socia Media Data Selection",
+      "year": 2024,
+      "journal_or_publisher": "Association for Computational Linguistics",
+      "url": "https://doi.org/10.18653/v1/2024.findings-emnlp.330"
+    }
+  ],
+  "queries": [
+    "(title:\"ChatGPT\" OR title:\"large language models\") AND (abstract:\"annotation\" OR abstract:\"annotators\")",
+    "(abstract:\"Reddit\" OR abstract:\"social media\") AND (abstract:\"conversational context\" OR abstract:\"parent comment\")",
+    "Exact titles for Gilardi et al. and Ziems et al.; DOI checks for five previously reviewed supporting papers."
+  ],
+  "read_access": {
+    "10.18653/v1/2022.naacl-main.433": "Scite body text, first 16000 characters including relevant methods/results",
+    "10.1073/pnas.2305016120": "Scite body text, first 8000 characters including methods/results",
+    "10.18653/v1/2023.emnlp-main.92": "Scite body text, first 16000 characters including framework/methods",
+    "10.1162/coli_a_00502": "Scite abstract only; published journal/ACL abstract cross-check"
+  },
+  "limitations": "Targeted search, not an exhaustive systematic review. Scite search also returns preprints; its indexing and citation tallies are not proof of peer review or validity."
+}

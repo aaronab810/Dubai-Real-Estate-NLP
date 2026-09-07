@@ -1,0 +1,32 @@
+{
+  "seed": 20260907,
+  "corpus_rows": 47744,
+  "outlier_rows": 24483,
+  "sample_rows": 80,
+  "sample_outliers": 60,
+  "sample_assigned": 20,
+  "split_counts": {
+    "holdout": 48,
+    "calibration": 32
+  },
+  "stratum_population_counts": {
+    "assigned_other": 15302,
+    "assigned_short_or_contact": 7959,
+    "outlier_contact": 739,
+    "outlier_context_only_property_word": 10215,
+    "outlier_other": 2026,
+    "outlier_own_property_word": 10207,
+    "outlier_repeated_filler": 232,
+    "outlier_short_no_detected_property_link": 1064
+  },
+  "previously_validated_records_excluded": 399,
+  "sample_platform_counts": {
+    "reddit": 68,
+    "twitter": 12
+  },
+  "sample_comments": 54,
+  "sample_comments_with_immediate_parent": 51,
+  "no_thread_or_exact_text_overlap_between_splits": true,
+  "sampling_limit": "Exploratory quota sample with unique threads. Not a probability-weighted corpus accuracy estimate; 48 held-out items are an initial check, not certification.",
+  "source_sha256": "a87ac35b3a3101a452187c8d9724edafce60f550c255e4202b81acf2ba09a16c"
+}
