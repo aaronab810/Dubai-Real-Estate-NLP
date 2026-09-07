@@ -1,0 +1,55 @@
+{
+  "input_drive_id": "1oNOz1KpfpLDTVyyoZs3veXYq-ZwDX11R",
+  "input_drive_path": "Dubai_Real_Estate_Data/final_pipeline_outputs/master_processed_analysis_clean.parquet",
+  "input_sha256": "8468f18043e21b585c99ed944e4a2a163343101261dcb1e546f3716f7db8cb74",
+  "source_rows": 47748,
+  "automoderator_removed": 4,
+  "empty_text_removed": 0,
+  "fit_rows": 47744,
+  "non_outlier_rows": 23261,
+  "outlier_rows": 24483,
+  "discovered_topics_excluding_minus1": 274,
+  "platform_counts": {
+    "reddit": 36063,
+    "twitter": 11681
+  },
+  "date_min": "2026-01-01 00:00:00+00:00",
+  "date_max": "2026-04-30 23:48:44+00:00",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "normalized_embeddings": true,
+  "embedding_model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "cache_reused_rows": 40564,
+  "newly_encoded_unique_texts": 7173,
+  "cache_check_size": 32,
+  "cache_check_max_abs_difference": 1.4528632164001465e-07,
+  "old_embeddings_sha256": "60875075b6da3b2912a43e105d84c6ecc777a1dc9d329fc417d6bdd2f0be3618",
+  "umap": {
+    "n_neighbors": 30,
+    "n_components": 5,
+    "min_dist": 0.0,
+    "metric": "cosine",
+    "random_state": 42
+  },
+  "hdbscan": {
+    "min_cluster_size": 20,
+    "min_samples": 10,
+    "metric": "euclidean",
+    "prediction_data": true
+  },
+  "calculate_probabilities": false,
+  "probability_note": "Assigned-cluster strengths only; all-topic membership matrix disabled. This does not change clustering.",
+  "grouping_note": "No 25-group reduction, no outlier reassignment, no historical SMDI mappings applied.",
+  "model_reload_verified": true,
+  "elapsed_seconds": 238.6,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "output_sha256": {
+    "embeddings.npy": "ac73ce0ad54a7aaf805ef0601c4b9a00ee0d28988e59291b7e4d71b3215f5045",
+    "fit_input.parquet": "1f2b23bc8720395f4bf69c20ff8bf5c33bb8e84b08bd34428d94c9514c00b872",
+    "social_with_topics.parquet": "a87ac35b3a3101a452187c8d9724edafce60f550c255e4202b81acf2ba09a16c",
+    "topic_info.csv": "a2b11ec574d5dc485f79ea862ecbc5fc04c2af32e58e644ed145ab033492b171",
+    "bertopic_model.pkl": "7ea5c819c5d6b2bf8bb3e3cc50f7d865f0080629ee4e4127b06f1de241fc1abe",
+    "umap_projection.npy": "f168329ce567ded26b95398b7fda350290040fa50619aedb8df75e30cdaa989e",
+    "excluded_records.parquet": "b0421c9fc7878e816cbe1000e15bcb692e3795867618e62be3caf78b081b47ec"
+  }
+}

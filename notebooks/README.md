@@ -32,3 +32,17 @@ order and keeps topic -1 outside semantic groups. Refit BERTopic to remove its
 earlier training contamination, then inspect groups before entering the reviewed
 SMDI mapping. See [the review and evaluation](../docs/NOTEBOOK_REVIEW_2026_09_07.md).
 
+## Executed clean-corpus refit, 7 September 2026
+
+Topic discovery now defaults to `master_processed_analysis_clean.parquet` (CSV
+fallback), matching the validation corpus. It does not append raw Reddit data
+unless the historical comparison flag is enabled. Model outputs and the resume
+path use `SMDI creation/clean_refit_2026_09_07`, preserving older runs. Resume also
+accepts the parquet assignments in the locally executed refit package.
+
+The executed refit removed four AutoModerator records from 47,748 final-clean
+records. BERTopic assigned 23,261 records to 274 topics and left 24,483 as
+outliers. These outputs still need topic/content validation; no new SMDI mapping
+has been assigned. See [the reproducible run](../analysis/refit_2026_09_07/README.md)
+and [the methodology evidence review](../docs/METHODOLOGY_EVIDENCE_2026_09_07.md).
+
