@@ -1,0 +1,5 @@
+annotator,final_retained,records,annotator_label_domain_relevant,annotator_label_genuine_discourse,annotator_label_listing_or_promotion,annotator_label_low_information,all_four_pass
+1,True,373,361,311,31,32,281
+1,False,27,24,14,8,5,10
+2,True,373,359,304,33,37,282
+2,False,27,22,12,8,5,8

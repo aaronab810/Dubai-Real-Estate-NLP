@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "records": 68285,
+  "exact_text_and_training_key_order": true,
+  "source_embeddings_sha256": "0a7c9f80de2dd40d3feb593e8ccde5ec74ee53d713ee93f6b403a974abfd2d23",
+  "source_training_sha256": "bba561861deafb064c528d758bfcb449a20dd8fd6863dccb54235d6df2cae147",
+  "output_embeddings_sha256": "d937d9d8b297464221d620cff2170185985abcdf6196dc811f6c88842d12865b",
+  "corpus_sha256": "465e005f1a94019f5b78584574bf23f51d1ecb7ce961df9ce69916d16877d7a1"
+}

@@ -1,0 +1,23 @@
+domain_id,platform,outcome,scope,n,r,difference_n,difference_r
+1,x,median_sale_amount_aed,"Primary: registered transaction size, not a price index",16,-0.2821145013431283,15,-0.31811317739865685
+1,reddit,median_sale_amount_aed,"Primary: registered transaction size, not a price index",16,-0.48896675513699006,15,-0.014630551595893701
+2,x,median_sale_amount_aed,Context only: does not measure investment returns or financing conditions,16,-0.19113636508845155,15,-0.3121313412209157
+2,reddit,median_sale_amount_aed,Context only: does not measure investment returns or financing conditions,16,0.09730788037062034,15,-0.08918490411345296
+3,x,offplan_count,Primary: discussion of developers versus off-plan registration activity,16,0.2548088768564688,15,-0.15771018842881
+3,reddit,offplan_count,Primary: discussion of developers versus off-plan registration activity,16,0.41806462244558196,15,0.22060644062703658
+3,x,ready_count,Primary segment comparison: developer discussion versus ready sales,16,0.35898430732651054,15,-0.11048855209878491
+3,reddit,ready_count,Primary segment comparison: developer discussion versus ready sales,16,0.7514036839165205,15,0.3826906560348598
+4,x,sales_registrations,Context only: aggregate registrations do not validate location-specific discourse,16,0.11682057979945623,15,0.10201141110521815
+4,reddit,sales_registrations,Context only: aggregate registrations do not validate location-specific discourse,16,0.6934212538583548,15,0.5152513535678229
+5,x,sales_registrations,Context only: no rental-registration series is available,16,0.39481273269572953,15,-0.12581936448556916
+5,reddit,sales_registrations,Context only: no rental-registration series is available,16,0.04592171362209278,15,0.059807887102365606
+6,x,sales_registrations,Exploratory: transaction-related discussion versus sales registration activity,16,0.5932196378391519,15,-0.06165000364779662
+6,reddit,sales_registrations,Exploratory: transaction-related discussion versus sales registration activity,16,0.5479993814201745,15,0.3775083469735739
+7,x,sales_registrations,Context only: sales counts do not measure regulatory changes or disputes,16,0.3390165940647596,15,-0.13506163557147294
+7,reddit,sales_registrations,Context only: sales counts do not measure regulatory changes or disputes,16,-0.4959443791205604,15,-0.23860838745490753
+8,x,sales_registrations,Context only: sales counts do not measure living conditions or management quality,16,0.19618744548528697,15,-0.1519744320388498
+8,reddit,sales_registrations,Context only: sales counts do not measure living conditions or management quality,16,-0.10004754622234203,15,-0.30081170074083874
+9,x,sales_registrations,"Primary: broad political/social attention versus sales activity, not pure geopolitical risk",16,-0.00686734967090577,15,0.22077135872368406
+9,reddit,sales_registrations,"Primary: broad political/social attention versus sales activity, not pure geopolitical risk",16,-0.7624393504411142,15,-0.4183332307626654
+10,x,sales_registrations,Context only: no corresponding administrative measure of platform behaviour,16,-0.42203404911873343,15,-0.5017146066855457
+10,reddit,sales_registrations,Context only: no corresponding administrative measure of platform behaviour,16,-0.4741163328220964,15,0.22643264518987957

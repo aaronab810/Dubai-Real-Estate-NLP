@@ -1,0 +1,12 @@
+{
+  "description": "Frozen inputs for the Pass-1 43-category/ten-group release; paths relative to this file. Exact byte hashes, not semantic equivalence.",
+  "inputs": {
+    "private/social_with_topics.parquet": "3cb8b01274991e03eeaad908827c9810451acb6117a61454373e82bc347c8236",
+    "private/training_with_topics.parquet": "a5e07dca4ce92d22913f5767d51b8b9805caa0eb11dde1e9287d588fc17b8c2b",
+    "private/near_families.parquet": "2f19033a8118652a334bf12868ca95285068f2529a7e8b061bc1377fce3e3989",
+    "private/social_semantic.parquet": "3e2a4648197ebde151273ea922e41cc1f0cdb75b62ce2b05bc849c908d10ec87",
+    "../private/dld_sales_registrations.parquet": "25d558ea10eb4a480db31febd2ff495d7e02729ffdc3ac91fdc2941f01ad6cde",
+    "user_domains_10.json": "fdd0e3a84daa25d5ae8ee806ddb0cd7b50e8806eae5ed0808f432ca8d8095387",
+    "supplied_smdi_workbook.json": "4b8ec77ca971ff2843bee12087e84ae83291966fdd1494795fabbb74d435a51b"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "corpus_sha256": "465e005f1a94019f5b78584574bf23f51d1ecb7ce961df9ce69916d16877d7a1",
+  "primary_specification": "Final-corpus refit: settings inherited from prior run; no association-based selection",
+  "embedding": "all-MiniLM-L6-v2",
+  "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "training_unique_texts": 68285,
+  "activity_records": 71239,
+  "max_seq_length": 256,
+  "training_over_limit": 2922,
+  "token_length_quantiles": {
+    "0.5": 29.0,
+    "0.9": 145.0,
+    "0.95": 233.0,
+    "0.99": 578.1600000000035,
+    "1": 15679.0
+  },
+  "vectorizer": {
+    "stop_words": "english",
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2
+  },
+  "selection_note": "Primary maintains the pre-existing density settings; alternatives quantify structural sensitivity without optimizing market association or claiming automated coherence is construct validity.",
+  "model_sha256": "911e7c398504ddc66d1666334f42459f4b06507633e6001bf7c2ae3ebcc1a976",
+  "code_sha256": "ba6accdd78aedc1bfab6409a39931b29f5d551e9cef9c82e213f3f348b2c671f",
+  "packages": {
+    "bertopic": "0.17.4",
+    "sentence-transformers": "6.0.1",
+    "umap-learn": "0.5.12",
+    "hdbscan": "0.8.44",
+    "scikit-learn": "1.9.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5"
+  },
+  "elapsed_seconds": 851.8744912147522
+}

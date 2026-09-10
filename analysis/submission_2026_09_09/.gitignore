@@ -1,0 +1,6 @@
+private/
+inputs/
+models/
+tools/
+__pycache__/
+*.log

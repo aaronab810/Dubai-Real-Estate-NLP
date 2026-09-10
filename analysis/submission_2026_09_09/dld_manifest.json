@@ -1,0 +1,49 @@
+{
+  "source": "C:\\Users\\aaron\\Downloads\\transactions-2026-06-19.csv",
+  "source_sha256": "a8472feff0011495fbfbb300f80fe3d89220de53d33f40b81f479d5f10f9b498",
+  "export_rows": 105466,
+  "exact_row_duplicates": 171,
+  "sales_rows_after_exact_dedup": 80882,
+  "sales_registrations_all_export": 80868,
+  "sales_substantive_conflicts": 0,
+  "collapsed_differences": [
+    "NEAREST_METRO_EN",
+    "NEAREST_MALL_EN",
+    "NEAREST_LANDMARK_EN"
+  ],
+  "jan_apr_sales_registrations": 62012,
+  "jan_apr_value_aed": 224951929605.58,
+  "jan_apr_offplan_ready": {
+    "Off-Plan": 41499,
+    "Ready": 20513
+  },
+  "common_complete_week_sales": 59229,
+  "common_complete_week_count": 16,
+  "common_value_aed": 215323390044.69,
+  "procedures": {
+    "Sell - Pre registration": 41091,
+    "Sale": 14584,
+    "Delayed Sell": 4823,
+    "Sell Development": 415,
+    "Development Registration Pre-Registration": 395,
+    "Lease to Own Registration": 277,
+    "Development Registration": 163,
+    "Sale On Payment Plan": 154,
+    "Delayed Development": 69,
+    "Delayed Sell Lease to Own Registration": 22,
+    "Sell Development - Pre Registration": 13,
+    "Adding Land By Sell": 3,
+    "Delayed Sell Development": 2,
+    "Lease to Own on Development Registration": 1
+  },
+  "usage": {
+    "Residential": 60099,
+    "Commercial": 1913
+  },
+  "areas": 233,
+  "median_sale_amount_aed": 1719492.8050000002,
+  "transaction_value_interpretation": "Positive TRANS_VALUE amount per unique sales registration, in AED; not a price index or individual property count. All repeated sales IDs agree on amount, date, transaction and actual areas, and property attributes. Nearby landmark alternatives are set-valued ancillary attributes.",
+  "other_groups": "Mortgage/gift component aggregation is excluded from monetary analysis; do not apply sales dedup assumptions to other procedures.",
+  "timestamp_policy": "DLD administrative timestamp interpreted in Asia/Dubai; source has no explicit timezone offset. UTC-day sensitivity accompanies social analysis.",
+  "code_sha256": "e7712237db7381efc4fee80f611700f265a3c4fad4d848b6fa2ff3899c7a2959"
+}

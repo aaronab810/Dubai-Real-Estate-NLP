@@ -1,0 +1,407 @@
+\documentclass[10pt]{article}
+
+\usepackage[T1]{fontenc}
+
+\usepackage[a4paper,margin=22mm]{geometry}
+
+\usepackage{longtable,booktabs,array}
+
+\begin{document}
+
+\section*{Candidate SMDI codebook and topic mappings}
+
+The supplied workbook defines 43 finer categories. Each BERTopic topic has one finer-category assignment. The separately supplied ten-domain mapping overlaps at topic level and is not a strict nesting of whole finer categories. All assignments await independent semantic validation. Counts below refer to unique training texts, not activity records.
+
+\section*{Assignment and review rules}
+
+A record inherits the category and domain memberships of its frozen Pass-1 topic. Topic $-1$ abstains. A domain counts a record once even when multiple thematic rationales apply. Target text is primary evidence; parent context resolves reference without transferring a parent-only theme. A mixed-topic flag is a review warning, not evidence that all members express every theme. Independent reviewers should distinguish category evidence, absent evidence, ambiguous meaning and insufficient context, allowing multiple domains where justified. Disagreement must be measured before adjudication. This specification does not contain completed independent annotation results.
+
+\section*{Finer categories}
+
+\subsection*{SMDI-01: Property Locations, Areas \& Communities}
+
+Specific Dubai/UAE locations, neighbourhoods, communities and area comparisons.
+
+\par Topics: 5, 32, 36, 48, 85, 105, 138, 144, 156, 209, 237, 260, 276, 288, 304, 306, 323, 329, 335, 353, 360.
+
+\par Unique texts: 1,765.
+
+\subsection*{SMDI-02: Developers, Project Reputation \& Quality}
+
+Named developers, project reputation, quality, ownership and project-specific discussion.
+
+\par Topics: 0, 11, 28, 33, 37, 40, 41, 53, 57, 71, 80, 113, 167, 198, 225, 246, 272, 280, 346, 349.
+
+\par Unique texts: 3,607.
+
+\subsection*{SMDI-03: Property Prices, Valuation \& Affordability}
+
+Prices, valuations, affordability, overpricing, discounts and price-per-square-foot.
+
+\par Topics: 15, 17, 25, 45, 47, 99, 116, 134, 175, 229, 232, 257, 258, 285, 290, 296, 300, 315, 354, 358.
+
+\par Unique texts: 1,711.
+
+\subsection*{SMDI-04: Direct Contact, DMs \& Community Networking}
+
+DMs, WhatsApp, phone contact, links, groups and direct buyer/seller connections.
+
+\par Topics: 3, 30, 55, 69, 87, 98, 125, 143, 161, 197, 199, 206, 223, 244, 267, 308, 340.
+
+\par Unique texts: 1,737.
+
+\subsection*{SMDI-05: Rental Market, Prices \& Yields}
+
+Rents, rental-market movements, short-term rentals and rental yield/return.
+
+\par Topics: 42, 50, 58, 61, 63, 66, 74, 104, 147, 164, 222, 270, 286, 318, 341, 356.
+
+\par Unique texts: 1,314.
+
+\subsection*{SMDI-06: Property Investment Strategies, Risk \& Returns}
+
+Investment motives, strategies, ROI, yield, appreciation, flipping, holding and risk.
+
+\par Topics: 7, 16, 84, 90, 115, 126, 166, 168, 193, 194, 214, 320, 333, 336, 345.
+
+\par Unique texts: 1,436.
+
+\subsection*{SMDI-07: Social Reactions, Feedback \& Interaction}
+
+Thanks, agreement, congratulations, validation, feedback and routine social responses.
+
+\par Topics: 9, 56, 101, 123, 150, 162, 165, 180, 182, 185, 189, 224, 233, 262, 355.
+
+\par Unique texts: 1,216.
+
+\subsection*{SMDI-08: Market Trends, Forecasts \& Corrections}
+
+Market direction, growth, slowdown, corrections, crashes, bubbles and macro comparisons.
+
+\par Topics: 20, 54, 62, 151, 153, 177, 184, 195, 217, 250, 256, 289, 292, 351.
+
+\par Unique texts: 986.
+
+\subsection*{SMDI-09: Property Types, Sizes \& Unit Characteristics}
+
+Villas, townhouses, studios, bedrooms, sizes, layouts and unit characteristics.
+
+\par Topics: 4, 6, 13, 59, 72, 73, 86, 102, 121, 159, 252, 311, 362.
+
+\par Unique texts: 2,116.
+
+\subsection*{SMDI-10: Property Design, Layout \& Amenities}
+
+Interiors, floor plans, bathrooms, balconies, pools, parking, fit-out and amenities.
+
+\par Topics: 65, 82, 155, 160, 169, 221, 227, 228, 239, 243, 253, 263, 268.
+
+\par Unique texts: 717.
+
+\subsection*{SMDI-11: Humour, Sarcasm \& Mockery}
+
+Humorous, sarcastic, mocking, joking, taunting and meme/GIF-style reactions.
+
+\par Topics: 111, 179, 207, 208, 240, 245, 249, 251, 264, 266, 291, 301.
+
+\par Unique texts: 495.
+
+\subsection*{SMDI-12: Property Transactions, Offers \& Negotiation}
+
+Offers, deal-making, buying/selling decisions, negotiation, cancellation and sale status.
+
+\par Topics: 2, 83, 133, 141, 216, 248, 259, 295, 299, 302, 361.
+
+\par Unique texts: 1,134.
+
+\subsection*{SMDI-13: Property Payments, Deposits \& Transaction Costs}
+
+Cheques, deposits, instalments, escrow, fees, service charges and payment risk.
+
+\par Topics: 49, 67, 88, 91, 93, 118, 154, 178, 183, 186, 205.
+
+\par Unique texts: 917.
+
+\subsection*{SMDI-14: Geopolitical Conflict \& Property Market Risk}
+
+War, conflict, geopolitical instability and security shocks affecting property/markets.
+
+\par Topics: 35, 68, 94, 95, 146, 158, 171, 210, 284, 312, 342.
+
+\par Unique texts: 800.
+
+\subsection*{SMDI-15: Property Data, Indices \& Market Evidence}
+
+Indices, transaction data, data sources, evidence quality and market statistics.
+
+\par Topics: 23, 96, 100, 127, 136, 174, 200, 211, 261, 324.
+
+\par Unique texts: 771.
+
+\subsection*{SMDI-16: Developer Projects, Launches \& Promotions}
+
+New launches, expansions, branded developments and developer promotional activity.
+
+\par Topics: 31, 60, 77, 103, 110, 215, 255, 298, 316, 322.
+
+\par Unique texts: 755.
+
+\subsection*{SMDI-17: Property Legal, Contract \& Dispute Issues}
+
+Contracts, MOUs, Form F, force majeure, legal advice, courts and compliance disputes.
+
+\par Topics: 120, 139, 191, 196, 234, 265, 314, 317, 332, 357.
+
+\par Unique texts: 415.
+
+\subsection*{SMDI-18: Real Estate Agents, Brokers \& Commissions}
+
+Agent/broker roles, careers, commissions, cold calling and agent criticism.
+
+\par Topics: 10, 14, 24, 64, 81, 108, 119, 142, 337.
+
+\par Unique texts: 1,377.
+
+\subsection*{SMDI-19: Tenant-Landlord Relations \& Rental Disputes}
+
+Tenant/landlord rights, evictions, deposits, repairs and termination disputes.
+
+\par Topics: 43, 79, 109, 188, 220, 226, 277, 325.
+
+\par Unique texts: 555.
+
+\subsection*{SMDI-20: Migration, Residency \& Golden Visa}
+
+Golden Visa, residency, migration, nationality and expatriate settlement.
+
+\par Topics: 39, 78, 170, 219, 271, 278, 309, 319.
+
+\par Unique texts: 497.
+
+\subsection*{SMDI-21: Real Estate Marketing, Advertising \& Lead Generation}
+
+Lead generation, investor outreach, advertising, listings and professional promotion.
+
+\par Topics: 38, 117, 124, 238, 247, 321, 327, 348.
+
+\par Unique texts: 475.
+
+\subsection*{SMDI-22: Property Defects, Inspection \& Maintenance}
+
+Snagging, defects, inspections, water/odour/noise/pest issues and maintenance.
+
+\par Topics: 132, 181, 202, 203, 213, 230, 274, 364.
+
+\par Unique texts: 358.
+
+\subsection*{SMDI-23: Distressed Property \& Motivated Sales}
+
+Distressed sales, motivated sellers, distress listings and distressed-asset opportunities/risks.
+
+\par Topics: 1, 46, 137, 163, 176, 187, 273.
+
+\par Unique texts: 1,206.
+
+\subsection*{SMDI-24: Property Search, Requirements \& Viewing}
+
+Buyer/renter requirements, availability, searches and viewings.
+
+\par Topics: 21, 44, 97, 114, 131, 190, 326.
+
+\par Unique texts: 729.
+
+\subsection*{SMDI-25: Property Information \& Recommendations}
+
+Property details, photos, project/building identification and recommendations.
+
+\par Topics: 12, 76, 112, 242, 282, 305, 352.
+
+\par Unique texts: 642.
+
+\subsection*{SMDI-26: Political, Social \& Controversial Property Discourse}
+
+Political, social, identity and controversial discourse linked to property.
+
+\par Topics: 140, 157, 218, 269, 328, 330, 331.
+
+\par Unique texts: 278.
+
+\subsection*{SMDI-27: Off-Plan Sales, SPAs \& Project Delivery}
+
+Off-plan purchases, SPAs, booking rights, construction, handover and refunds.
+
+\par Topics: 18, 22, 135, 212, 254.
+
+\par Unique texts: 632.
+
+\subsection*{SMDI-28: Property Timing \& Buy-Wait Decisions}
+
+When to buy, waiting for better prices and seasonal/timing considerations.
+
+\par Topics: 29, 235, 241, 310, 359.
+
+\par Unique texts: 322.
+
+\subsection*{SMDI-29: Property Financing, Mortgages \& Leverage}
+
+Mortgages, loans, financing rates, valuations, down payments and leverage.
+
+\par Topics: 8, 75, 172, 313.
+
+\par Unique texts: 638.
+
+\subsection*{SMDI-30: Platform, Content Quality \& AI-Generated Content}
+
+AI-generated content, copy-paste content, post-quality and platform constraints.
+
+\par Topics: 26, 52, 303, 344.
+
+\par Unique texts: 402.
+
+\subsection*{SMDI-31: Crypto, Tokenization \& Alternative Investments}
+
+Tokenization, crypto, Bitcoin, gold and alternative-investment comparisons.
+
+\par Topics: 27, 148, 236, 297.
+
+\par Unique texts: 343.
+
+\subsection*{SMDI-32: Market Psychology, Sentiment \& Seller Behaviour}
+
+Panic selling, fear, wait-and-see behaviour and seller/investor sentiment.
+
+\par Topics: 34, 204, 339, 343.
+
+\par Unique texts: 271.
+
+\subsection*{SMDI-33: Dubai Living, Affordability \& Cost of Living}
+
+Everyday Dubai living, affordability, commuting, services and lifestyle.
+
+\par Topics: 70, 152, 307, 334.
+
+\par Unique texts: 232.
+
+\subsection*{SMDI-34: Property Ownership, Title \& Tenure}
+
+Freehold/leasehold, title deeds, ownership records and tenure.
+
+\par Topics: 106, 122, 287, 350.
+
+\par Unique texts: 214.
+
+\subsection*{SMDI-35: Taxation, Insurance \& Cross-Border Compliance}
+
+Taxation, VAT, insurance and cross-border financial compliance.
+
+\par Topics: 89, 275, 279, 366.
+
+\par Unique texts: 180.
+
+\subsection*{SMDI-36: RERA, Tenancy \& Rental Regulation}
+
+RERA, Ejari, rental indices, rent-increase rules and tenancy regulation.
+
+\par Topics: 19, 107, 363.
+
+\par Unique texts: 348.
+
+\subsection*{SMDI-37: International Investors \& Cross-Border Finance}
+
+Nationality-specific investors, international wealth and cross-border finance.
+
+\par Topics: 51, 129, 192.
+
+\par Unique texts: 269.
+
+\subsection*{SMDI-38: Commercial, Hotel \& Mixed-Use Property}
+
+Commercial offices, hotels, hospitality and mixed-use property.
+
+\par Topics: 130, 145, 231.
+
+\par Unique texts: 182.
+
+\subsection*{SMDI-39: Questions, Clarifications \& Problem Solving}
+
+Requests for explanations, feasibility checks, solutions and clarification.
+
+\par Topics: 92, 201, 294.
+
+\par Unique texts: 173.
+
+\subsection*{SMDI-40: Administrative, Technical \& Platform Interactions}
+
+Apps, reminder bots, service access and technical/platform interactions.
+
+\par Topics: 149, 281, 338.
+
+\par Unique texts: 117.
+
+\subsection*{SMDI-41: UAE Safety, Security \& Regional Risk}
+
+UAE safety, safe-haven perceptions and regional security comparisons.
+
+\par Topics: 128, 293.
+
+\par Unique texts: 102.
+
+\subsection*{SMDI-42: Government, DLD \& Business Services}
+
+DLD, government portals, regulatory and Dubai business services.
+
+\par Topics: 173, 283.
+
+\par Unique texts: 85.
+
+\subsection*{SMDI-43: Luxury Property \& Lifestyle}
+
+Luxury/premium property positioning, branding and value debates.
+
+\par Topics: 347, 365.
+
+\par Unique texts: 42.
+
+\section*{Broader domains}
+
+\subsection*{1. Property Market \& Pricing}
+
+Topics: 0, 1, 7, 15, 16, 17, 20, 23, 25, 29, 34, 45, 46, 47, 54, 62, 84, 96, 99, 100, 115, 116, 126, 127, 134, 136, 137, 151, 153, 163, 166, 168, 174, 175, 176, 184, 193, 194, 195, 200, 204, 211, 214, 217, 229, 232, 235, 250, 256, 257, 258, 261, 273, 285, 289, 290, 292, 296, 300, 302, 315, 320, 324, 333, 336, 339, 345, 351, 354, 358.
+
+\subsection*{2. Property Investment \& Finance}
+
+Topics: 8, 16, 27, 51, 75, 84, 90, 115, 126, 129, 148, 166, 168, 172, 192, 193, 194, 214, 236, 297, 313, 320, 333, 336, 345.
+
+\subsection*{3. Developers \& Property Projects}
+
+Topics: 0, 11, 18, 22, 28, 31, 33, 37, 40, 41, 53, 57, 60, 71, 77, 80, 103, 110, 113, 135, 167, 198, 212, 215, 225, 246, 254, 255, 272, 280, 298, 316, 322, 346, 347, 349, 365.
+
+\subsection*{4. Property Locations \& Characteristics}
+
+Topics: 4, 5, 6, 12, 13, 32, 36, 48, 59, 65, 72, 73, 76, 82, 85, 86, 102, 105, 112, 121, 130, 138, 144, 145, 155, 156, 159, 160, 169, 209, 221, 227, 228, 231, 237, 239, 242, 243, 252, 253, 260, 263, 268, 276, 282, 288, 304, 305, 306, 311, 323, 329, 335, 347, 352, 353, 360, 362, 365.
+
+\subsection*{5. Rental \& Tenancy}
+
+Topics: 19, 42, 43, 50, 58, 61, 63, 66, 74, 79, 104, 107, 109, 147, 164, 188, 220, 222, 226, 270, 277, 286, 318, 325, 341, 356, 363.
+
+\subsection*{6. Property Transactions \& Professional Services}
+
+Topics: 2, 3, 10, 14, 21, 24, 30, 38, 44, 55, 64, 69, 81, 83, 87, 97, 98, 108, 114, 117, 119, 124, 125, 131, 133, 141, 142, 143, 161, 187, 197, 199, 206, 216, 223, 238, 241, 244, 247, 248, 259, 267, 295, 299, 302, 308, 321, 326, 327, 337, 340, 348, 359, 361.
+
+\subsection*{7. Property Regulation, Legal \& Ownership}
+
+Topics: 19, 49, 67, 88, 89, 91, 93, 106, 118, 120, 122, 139, 154, 173, 178, 183, 186, 191, 196, 205, 234, 265, 275, 279, 283, 287, 314, 317, 332, 350, 357, 363, 366.
+
+\subsection*{8. Property Management \& Living}
+
+Topics: 39, 43, 70, 78, 79, 106, 109, 122, 128, 132, 152, 170, 181, 188, 202, 203, 213, 219, 220, 226, 230, 271, 274, 277, 278, 293, 307, 309, 310, 319, 325, 334, 350, 364.
+
+\subsection*{9. Political, Geopolitical \& Social Discourse}
+
+Topics: 9, 35, 56, 68, 94, 95, 101, 123, 128, 140, 146, 150, 157, 158, 162, 165, 171, 177, 179, 180, 182, 185, 189, 210, 218, 224, 233, 240, 245, 249, 251, 262, 264, 266, 269, 284, 291, 293, 312, 328, 330, 331, 342, 343, 355.
+
+\subsection*{10. Communication, Content \& Platform Behaviour}
+
+Topics: 26, 52, 92, 111, 149, 179, 190, 201, 207, 208, 240, 245, 249, 250, 251, 264, 266, 281, 294, 301, 303, 338, 344.
+
+\end{document}

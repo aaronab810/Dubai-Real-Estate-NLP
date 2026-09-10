@@ -1,2 +1,37 @@
 __pycache__/
 *.pyc
+
+# Local environments, caches and generated QA work (not research inputs).
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+/tmp/
+/paper/qa/
+*.aux
+*.bbl
+*.blg
+*.out
+*.synctex.gz
+*.log
+.env
+.env.*
+!.env.example
+
+# Restricted research records and fitted model caches.
+private/
+inputs/
+models/
+# Embedding exports can also appear outside model directories.
+*.npy
+*.npz
+
+# Local author/submission materials; not part of the public research repository.
+/paper/README.txt
+/paper/REMAINING_BLOCKERS.md
+/paper/FINAL_RELEASE_QA.json
+/paper/isdia2027_source.zip
+/paper/release_checksums.json
+/output/pdf/
+/analysis/submission_2026_09_09/final_corpus_refit/finish_release.py
+
+/paper/AUDIT_CORRECTIONS.md

@@ -1,0 +1,5 @@
+criterion,n,both_yes,both_no,a_yes_b_no,a_no_b_yes,agreement,kappa
+domain_relevant,400,379,13,6,2,0.98,0.7544128933231005
+genuine_discourse,400,307,66,18,9,0.9325,0.7882352941176471
+listing_or_promotion,400,30,350,9,11,0.95,0.72224151100618
+low_information,400,35,356,2,7,0.9775,0.8736487435069495

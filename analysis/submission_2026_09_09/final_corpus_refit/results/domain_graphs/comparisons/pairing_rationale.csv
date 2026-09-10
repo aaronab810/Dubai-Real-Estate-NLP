@@ -1,0 +1,12 @@
+domain_id,dld_column,label,scope
+1,median_sale_amount_aed,Median sale amount,"Primary: registered transaction size, not a price index"
+2,median_sale_amount_aed,Median sale amount,Context only: does not measure investment returns or financing conditions
+3,offplan_count,Off-plan sales registrations,Primary: discussion of developers versus off-plan registration activity
+3,ready_count,Ready sales registrations,Primary segment comparison: developer discussion versus ready sales
+4,sales_registrations,Sales registrations,Context only: aggregate registrations do not validate location-specific discourse
+5,sales_registrations,Sales registrations,Context only: no rental-registration series is available
+6,sales_registrations,Sales registrations,Exploratory: transaction-related discussion versus sales registration activity
+7,sales_registrations,Sales registrations,Context only: sales counts do not measure regulatory changes or disputes
+8,sales_registrations,Sales registrations,Context only: sales counts do not measure living conditions or management quality
+9,sales_registrations,Sales registrations,"Primary: broad political/social attention versus sales activity, not pure geopolitical risk"
+10,sales_registrations,Sales registrations,Context only: no corresponding administrative measure of platform behaviour

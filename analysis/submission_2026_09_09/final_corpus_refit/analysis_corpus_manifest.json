@@ -1,0 +1,27 @@
+{
+  "version": "analysis-corpus-v4",
+  "input_records": 72239,
+  "excluded": 1000,
+  "records": 71239,
+  "training_families": 68285,
+  "counts": {
+    "reddit_comment": 55002,
+    "x_post": 11787,
+    "reddit_post": 4450
+  },
+  "common_counts": {
+    "reddit": 56721,
+    "x": 11362
+  },
+  "reasons": {
+    "explicit_property_offer": 759,
+    "explicit_contact_invitation": 162,
+    "explicit_sales_marketing": 77,
+    "broker_inventory_offer": 1,
+    "explicit_phone_offer": 1
+  },
+  "source_sha256": "62a98235cf89a03803a61b3f7d12f0f31c5e73cd39d48aa21cddcff4194a833f",
+  "output_sha256": "465e005f1a94019f5b78584574bf23f51d1ecb7ce961df9ce69916d16877d7a1",
+  "code_sha256": "534b63d1b013d52834ee78ee4adb0ca6a6b735dc8d517425653b5da712bf2e28",
+  "decision": "Explicit target offers/contact invitations found in v2 and v3 refit inspection; rule-based development correction before new associations. No human accuracy claim."
+}

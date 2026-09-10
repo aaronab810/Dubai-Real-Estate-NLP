@@ -1,0 +1,21 @@
+{
+  "method": "case-insensitive whitespace-normalized exact AREA_EN phrase matching in target only, longest match first, no abbreviation/fuzzy aliases",
+  "excluded_ambiguous_literals": [
+    "burj khalifa",
+    "business park",
+    "horizon",
+    "the world",
+    "world islands"
+  ],
+  "distinct_source_area_strings": 232,
+  "normalized_area_keys": 227,
+  "eligible_literals": 221,
+  "single_literal_records": 4184,
+  "any_literal_records": 5132,
+  "single_area_platform_cells": 145,
+  "cells_all_16_weeks": 15,
+  "unmapped_jvc_mentions": 1133,
+  "geographic_status": "unvalidated mentions, not user/property geolocation; no community correlations estimated",
+  "source_sha256": "3e2a4648197ebde151273ea922e41cc1f0cdb75b62ce2b05bc849c908d10ec87",
+  "code_sha256": "a7006a4300b34cbb59e568bab9df8700df911712d6460370ec75a93b65140f2f"
+}

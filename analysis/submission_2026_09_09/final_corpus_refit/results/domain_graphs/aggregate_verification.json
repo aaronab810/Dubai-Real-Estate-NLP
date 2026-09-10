@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "primary_specification_rows_verified": 96,
+  "additional_weighted_or_filtered_rows_verified": 72,
+  "weeks": 16,
+  "semantic_validation": "not performed by this numerical check"
+}

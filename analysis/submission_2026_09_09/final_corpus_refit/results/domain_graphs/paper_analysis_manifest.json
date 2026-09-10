@@ -1,0 +1,33 @@
+{
+  "categories": 43,
+  "topics": 367,
+  "unique_assigned_texts": 32561,
+  "activity_assigned": 34647,
+  "activity_overlap_domains": 3930,
+  "activity_assignment_percent": 48.634876963461025,
+  "qc_flags": {
+    "Clear": 309,
+    "Interactional / discourse": 48,
+    "Mixed / manual check": 10
+  },
+  "missing_domain_topics": [],
+  "bootstrap_draws": 4999,
+  "bootstrap_seed_rule": "20260909 + 100*block + n",
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "inputs": {
+    "C:\\Users\\aaron\\Desktop\\Dubai-Real-Estate-NLP\\analysis\\submission_2026_09_09\\final_corpus_refit\\private\\social_with_topics.parquet": "3cb8b01274991e03eeaad908827c9810451acb6117a61454373e82bc347c8236",
+    "C:\\Users\\aaron\\Desktop\\Dubai-Real-Estate-NLP\\analysis\\submission_2026_09_09\\private\\dld_sales_registrations.parquet": "25d558ea10eb4a480db31febd2ff495d7e02729ffdc3ac91fdc2941f01ad6cde",
+    "C:\\Users\\aaron\\Desktop\\Dubai-Real-Estate-NLP\\analysis\\submission_2026_09_09\\final_corpus_refit\\user_domains_10.json": "fdd0e3a84daa25d5ae8ee806ddb0cd7b50e8806eae5ed0808f432ca8d8095387",
+    "C:\\Users\\aaron\\Desktop\\Dubai-Real-Estate-NLP\\analysis\\submission_2026_09_09\\final_corpus_refit\\supplied_smdi_workbook.json": "4b8ec77ca971ff2843bee12087e84ae83291966fdd1494795fabbb74d435a51b",
+    "C:\\Users\\aaron\\Desktop\\Dubai-Real-Estate-NLP\\analysis\\submission_2026_09_09\\final_corpus_refit\\topic_manifest.json": "bceefb2652a2bebc581ef3d7f137944d47166c2a27d145d167b3a27d0377fef1",
+    "C:\\Users\\aaron\\Desktop\\Dubai-Real-Estate-NLP\\analysis\\submission_2026_09_09\\final_corpus_refit\\domain_paper_analysis.py": "3dcfb54992df862eaa6c83748058bc10c40dea0001f6887f25d0add9c027443c",
+    "C:\\Users\\aaron\\Desktop\\Dubai-Real-Estate-NLP\\analysis\\submission_2026_09_09\\final_corpus_refit\\analyse_associations.py": "54077b88321b3e095dd30732774a2a0a02775e7eb0a4e0f2b3a1350fbf307992",
+    "C:\\Users\\aaron\\Desktop\\Dubai-Real-Estate-NLP\\analysis\\submission_2026_09_09\\final_corpus_refit\\private\\social_semantic.parquet": "3e2a4648197ebde151273ea922e41cc1f0cdb75b62ce2b05bc849c908d10ec87",
+    "C:\\Users\\aaron\\Desktop\\Dubai-Real-Estate-NLP\\analysis\\submission_2026_09_09\\final_corpus_refit\\private\\near_families.parquet": "2f19033a8118652a334bf12868ca95285068f2529a7e8b061bc1377fce3e3989"
+  }
+}

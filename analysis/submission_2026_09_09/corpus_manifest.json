@@ -1,0 +1,42 @@
+{
+  "version": "submission-corpus-v1",
+  "status": "computational freeze; target-quality rules are development decisions, not newly human-validated",
+  "raw_rows": 88155,
+  "eligible_records": 74303,
+  "training_unique_texts": 70722,
+  "counts": {
+    "reddit_comment": 56988,
+    "x_post": 11918,
+    "reddit_post": 5397
+  },
+  "excluded": {
+    "no_property_evidence": 5499,
+    "contact_only": 3268,
+    "target_solicitation": 2530,
+    "known_reddit_automoderator": 2134,
+    "empty_or_deleted_target": 267,
+    "reaction_only": 116,
+    "x_non_english_metadata": 38
+  },
+  "restored_x_timestamps": 13142,
+  "snowflake_date_matches": 13142,
+  "annotation_joins": {
+    "1": 400
+  },
+  "annotation_retained": 381,
+  "missing_submission_context_eligible": 407,
+  "missing_immediate_parent_eligible": 379,
+  "non_latin_flags": 50,
+  "input_hashes": {
+    "x_merged.parquet": "06ca38825c4e03d97813f9b14849ab23d7c8c770310680f63a980173085ec994",
+    "combined_reddit_posts.csv": "698098a734785a26971042381d3e08369267ad99fa11954ce6cce6b7e57df261",
+    "combined_reddit_comments.csv": "43355d144ba3eafeb29eea3c9d257b733c3979b33ad9207f9eee87c83cbd2b4a",
+    "rde_raw_comments.csv": "f009b6880489f7df5bd8cb024da0bbafedf4299decbf2f749c5f368e950b4ebe"
+  },
+  "output_sha256": "8f27e258a1dde29d45fbd29e8ee5830bd2b6f71c719fdd51018f95755d2ab5af",
+  "code_sha256": "e99f24b9aaa55d94a41b70c4f67c54e00355652e1e646c0bf77362c16de1e9b6",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "emoji": "2.14.1",
+  "window": "source UTC capture Jan 1-Apr 30; analysis restricted to 16 complete Asia/Dubai weeks Jan 5-Apr 26",
+  "unresolved": "Independent target-level quality adjudication and semantic validation are human tasks; no generated judgments are represented as human."
+}

@@ -1,0 +1,3 @@
+# Preserve research artifact bytes across Windows/Linux checkouts.
+# Provenance manifests use SHA-256 of exact file contents, including line endings.
+* -text

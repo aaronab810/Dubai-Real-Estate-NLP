@@ -1,0 +1,15 @@
+{
+  "num_perm": 64,
+  "seed": 20260909,
+  "lsh_retrieval_threshold": 0.8,
+  "exact_jaccard_cut": 0.85,
+  "minimum_words": 20,
+  "shingle_words": 5,
+  "candidate_pairs_checked": 451,
+  "accepted_pairs": 358,
+  "distinct_texts": 70722,
+  "components": 70431,
+  "status": "Approximate retrieval; no exhaustive recall guarantee. Components may chain. Used only for one-family-per-week sensitivity, never automatic primary exclusion.",
+  "source_sha256": "8f27e258a1dde29d45fbd29e8ee5830bd2b6f71c719fdd51018f95755d2ab5af",
+  "code_sha256": "0cb578cf3402a0769339cd03ae5d8356837254ffde309d8de8009afd7881a6d0"
+}

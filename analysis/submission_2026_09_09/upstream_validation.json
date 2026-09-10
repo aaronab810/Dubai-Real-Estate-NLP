@@ -1,0 +1,22 @@
+{
+  "raw_dubai_posts": 21292,
+  "raw_unique_ids": 21292,
+  "scored_posts": 10834,
+  "scored_in_raw": 10834,
+  "scored_not_raw": 0,
+  "selected": 825,
+  "selected_matches_combined": true,
+  "threshold": 0.4,
+  "gold_n": 500,
+  "gold_text_match": true,
+  "gold_positive": 33,
+  "all_negative_accuracy": 0.9339999999999999,
+  "interpretation": "Saved deployment scores evaluated on the same 500 annotated IDs and exact text. Development/selection-set estimates; not an independent test. The base-model threshold experiment is not substituted for these large-model scores.",
+  "bart_correction": "Notebook cell52 computes bart_results from bart_label, while cell49 evaluates bart_prediction. The labeled CSV has neither output. Contradictory BART summary is removed from manuscript; no invented reconstructed predictions.",
+  "model_provenance": "Executed full-dataset notebook specifies MoritzLaurer/deberta-v3-large-zeroshot-v2.0, first1024 characters, labels real estate/not real estate, multi_label=False; original checkpoint revision was not saved. Stored numeric scores are frozen and reused.",
+  "input_hashes": {
+    "dubai_gold.csv": "5cf69dfe76db899f9dd0d340766daa81a54786060a7c76d2b0aacb862605b3fc",
+    "dubai_posts_deberta.csv": "b05b2f714d545a1adb776496deccd84431f1ce90cb606070dfafa118a13b5063",
+    "dubai_raw_posts.csv": "00ec7b13a3f1185a49f9aca5f1f35f1fec90c946f6e90b00026ef7f71f5a97df"
+  }
+}
