@@ -59,6 +59,6 @@ The manuscript source is `paper/main.tex`, with its bibliography in `paper/refer
 
 ## Access and sharing
 
-The companion contains aggregates, topic-level definitions, scripts and provenance. It excludes raw posts, usernames, record-level review packets, model binaries and embeddings. These sources are not automatically licensed for redistribution. Aggregate reproduction is available from the package; full reconstruction requires authorised access to restricted inputs. No public release, repository push or conference submission has been made.
+The companion contains aggregates, topic-level definitions, scripts and provenance. It excludes raw posts, usernames, record-level review packets, model binaries and embeddings. These sources are not automatically licensed for redistribution. Aggregate reproduction is available from the package; full reconstruction requires authorised access to restricted inputs. Restricted source records are not distributed with these research materials.
 
 The historical Graphify graph has 635 nodes and 1,186 edges. It supports project provenance only; it does not validate categories or statistical findings.
