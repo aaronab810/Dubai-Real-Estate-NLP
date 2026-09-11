@@ -38,7 +38,7 @@ Weekly discussion shares, calculated separately for X and Reddit
 Weekly DLD sales counts, off-plan/ready activity and sale amounts
 ```
 
-Candidate **Specific Market Discourse Indicators (SMDIs)** describe the prevalence of identified themes. Records inherit the category assignments of their topic. The ten broad groups include pricing, investment, development, tenancy, professional services, regulation and political/social discussion.
+Candidate **Semantic Market Discourse Indicators (SMDIs)** describe the prevalence of identified themes. Records inherit the category assignments of their topic. The ten broad groups include pricing, investment, development, tenancy, professional services, regulation and political/social discussion.
 
 Broad groups may overlap. Records assigned to BERTopic's noise label (`-1`) remain unassigned and are included in the main platform denominator. Category assignments cover **48.6% of retained social activity**. Independent human validation of the SMDI categories is pending; the earlier dataset-quality review does not establish category validity.
 
